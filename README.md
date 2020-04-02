@@ -1,6 +1,6 @@
-# 2019-2020 Eğitim Yılı
-# Web Teknolojileri Proje Ödevi
-# Kişisel Web Sitesi
+## 2019-2020 Eğitim Yılı
+## Web Teknolojileri Proje Ödevi
+## Kişisel Web Sitesi
 
 ### Özet
 Bu proje 2019-2020 eğitim yılı Web Teknolojileri dersi ödevi olarak geliştirilecektir.
