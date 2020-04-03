@@ -1,12 +1,9 @@
 ## 2019-2020 Eğitim Yılı
 ## Web Teknolojileri Proje Ödevi
 ## Kişisel Web Sitesi
-##### Ahmet Yasin Kalkanlı
-##### G191210031
-##### 2B grubu
 
 ### Özet
-Bu proje 2019-2020 eğitim yılı Web Teknolojileri dersi ödevi olarak geliştirilecektir. Proje sürekli olarak https://github.com/aykalkan/WebTeknolojileri_Proje adresinde güncellenecektir.
+Bu proje 2019-2020 eğitim yılı Web Teknolojileri dersi ödevi olarak geliştirilecektir.
 Proje şu konuları içermelidir.
 
 1. Kişisel bilgilerin yer aldığı hakkımda sayfası (Bu sayfa aynı zamanda giriş sayfası olacaktır)
@@ -20,9 +17,10 @@ Proje şu konuları içermelidir.
 	1. Sitede loginle ilgili kontrollerin yopılması gerekmektedir
 1. İletişim formlarının yer aldığı iletişim sayfası
 
-### Hakkımda Sayfası
+Site tasarımında kullanılacak stiller ayrı bir dosyada yer alacaktır. Site tasarımı bootstrap ile responsive yani çözünürlüğe bağlı olarak değişebilecek şekilde yapılacaktır.
 
-Bu sayfa kendim hakkında genel bilgi vereceğim bir sayfa olacaktır. Sitenin giriş sayfası olacağı için yönlendirmeler de burada yer alacaktır. Bu sayfanın içeriğinde şunlar olacaktır:
+### Hakkımda Sayfası
+Bu sayfa kendim hakkında genel bilgi vereceğim bir sayfa olacaktır. Sitenin giriş sayfası olacağı için etkileyici bir tasarım yapılması önemlidir. Bu sayfanın içeriğinde şunlar olacaktır:
 
 - [ ] Kendim hakkında özet bilgi
 - [ ] Fotoğraf
@@ -31,9 +29,9 @@ Bu sayfa kendim hakkında genel bilgi vereceğim bir sayfa olacaktır. Sitenin g
 - [ ] Resimler
 - [ ] Kendimden haberler
 - [ ] Özgeçmişe link
+- [ ] Sosyal medya hesaplarıma linkler
 
 ### Özgeçmiş Sayfası
-
 Özgeçmiş sayfasında kariyer hayatımı etkileyecek, işverenlerin ilgileneceği cinsten bilgiler yer alacaktır. Sayfa içeriğinde aşağıdaki bilgiler liste şeklinde bulunabilir:
 
 - [ ] Fotoğraf
@@ -47,7 +45,6 @@ Bu sayfa kendim hakkında genel bilgi vereceğim bir sayfa olacaktır. Sitenin g
 - [ ] Referanslar
 
 ### Memleketim Sayfası
-
 Memleketim sayfasında, yaşadığım şehir yani Balıkesir'in Gönen ilçesi hakkında bilgiler ve fotoğraflar yer alacaktır. Bunlar şöyle listelenebilir:
 
 - [ ] Şehrin tanıtımında kullanılan geniş bir fotoğraf
@@ -65,7 +62,6 @@ Memleketim sayfasında, yaşadığım şehir yani Balıkesir'in Gönen ilçesi h
 
 
 ### Mirasımız Sayfası
-
 Gönende mirasımız olarak belirtilebilecek pek çok yer vardır. Tarihi zengin bir bölgedir. Bunlardan en dikkat çekicilerinden biri Alacaoluk kalesidir. Kale Roma döneminde yapılmış ve yaklaşık 2000 yıllıktır. Kalenin tanıtımında aşağıdaki öğeler kullanılacaktır.
 
 - [ ] Pek çok fotoğraf
@@ -75,7 +71,6 @@ Gönende mirasımız olarak belirtilebilecek pek çok yer vardır. Tarihi zengin
 - [ ] Teknik bilgiler
 
 ### Mirasımız Sayfası
-
 Gönende mirasımız olarak belirtilebilecek pek çok yer vardır. Tarihi zengin bir bölgedir. Bunlardan en dikkat çekicilerinden biri Alacaoluk kalesidir. Kale Roma döneminde yapılmış ve yaklaşık 2000 yıllıktır. Kalenin tanıtımında aşağıdaki öğeler kullanılacaktır.
 
 - [ ] Pek çok fotoğraf
@@ -85,7 +80,6 @@ Gönende mirasımız olarak belirtilebilecek pek çok yer vardır. Tarihi zengin
 - [ ] Teknik bilgiler
 
 ### İletişim Sayfası
-
 Site yönetimi ile iletişime geçmek için bu sayfa kullanılacaktır. Çeşitli form elemanları ile mesaj hazırlanacak ve gönderildiğinde ilgili mesaj site yönetimine mail olarak gönderilecektir. Sayfada yer alacak form elemanları şunlardır. Form elemanlarının hepsinin doldurulması zorunludur.
 
 - [ ] Gönderen e-posta adresi (input type="email")
@@ -105,7 +99,6 @@ Site yönetimi ile iletişime geçmek için bu sayfa kullanılacaktır. Çeşitl
 Gönder butonuna basıldığında eğer form elemanları doğru şekilde doldurulduysa başka bir sayfada girilenler listelenecek ve mesajın başarıyla gönderildiği yazacaktır. Mesaj gönderme başarısız olursa iletişim sayfasında kalacak ve eksik veya yanlış doldurulan alanları belirten bir mesaj yayınlanacaktır.
 
 ### Login Sayfası
-
 Kullanıcı girişi yapmak için bu sayfa kullanılacaktır. Aşağıdaki elemanlar olacaktır:
 
 - [ ] E-posta adresi (input type="email")
@@ -115,7 +108,6 @@ Kullanıcı girişi yapmak için bu sayfa kullanılacaktır. Aşağıdaki eleman
 Kullanıcının e-posta alanına girdiği bilgi kontrol edilecek, e-posta adresi değilse hata verecektir. E-posta ve şifrenin uyuşup uyuşmadığı bir veritabanından veya siteye gömülmüş kullanıcılardan kontrol edilebilir. Kullanıcı başarılı giriş yaparsa "Hoşgeldiniz <e-posta adresi başı>" şeklinde mesaj yayınlanacaktır.
 
 ### Navigasyon Menüsü
-
 Sitenin üstünde yer alacak ve her sayfada görünür olacaktır. Sayfalara ulaşmayı sağlayacaktır. Menü yapısı şu şekildedir:
 
 * Hakkımda
@@ -126,5 +118,4 @@ Sitenin üstünde yer alacak ve her sayfada görünür olacaktır. Sayfalara ula
 * Üye girişi
 
 ### Site Stili
-
 Sitenin stil altyapısını içeren CSS kodları ayrı bir dosyada tutulacaktır. Site bootstrap ile responsive tasarım tarzında yapılacaktır. Responsive tasarım site elemanlarının çözünürlüğe göre yerleşmesini, statik olmamasını sağlar. Projede hazır tema kullanımına izin verilmemiştir.
