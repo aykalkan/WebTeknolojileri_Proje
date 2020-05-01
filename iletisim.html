@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>İletişim</title>
+</head>
+
+<body>
+    <form action="iletisim.php" method="POST">
+        E-posta adresiniz<input type="text" id="email" name="email">
+        <br>
+        İsim <input type="text" id="isim" name="isim">
+        <br>
+        Erkek <input type="radio" name="cinsiyet" value="e">
+        Kadın <input type="radio" name="cinsiyet" value="k">
+        <br>
+        Hangi sayfaları gezdiniz
+        <br>
+        <input type="checkbox" name="hobi" value="1">Özgeçmiş
+        <br>
+        <input type="checkbox" name="hobi" value="2">Memleketim
+        <br>
+        <input type="checkbox" name="hobi" value="3">Mirasımız
+        <br>
+        İletisim sebebiniz
+        <select name="sebep">
+            <option value="tesekkur"> Teşekkür</option>
+            <option value="sikayet"> Şikayet</option>
+            <option value="hal_hatır"> Hal hatır sorma </option>
+            <option value="business"> İş </option>
+            <option value="diger"> Diğer </option>
+        </select>
+        <br>
+        Konu <input type="text" id="Konu" name="konu">
+        <br>
+        <textarea rows="5" cols="50" id="mesaj" name="mesaj">Mesajınız</textarea>
+        <br>
+        <br>
+        <input type="button" value="Temizle">
+        <input type="submit" value="Gönder">
+
+    </form>
+</body>
+
+</html>

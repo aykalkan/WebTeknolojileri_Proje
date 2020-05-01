@@ -86,7 +86,7 @@ Site yönetimi ile iletişime geçmek için bu sayfa kullanılacaktır. Çeşitl
 - [ ] Gönderen ismi (input type="text")
 - [ ] Cinsiyet (input type="radio")
 - [ ] Konu (input type="text")
-- [ ] İlgili birim (select)
+- [ ] İletisim nedeni (select)
 - [ ] Mesaj (textarea)
 - [ ] Sitenin hangi alanlarığı gezdiniz (input type="checkbox")
 - [ ] Anket alanı (fieldset)
