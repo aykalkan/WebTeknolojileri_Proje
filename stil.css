@@ -1,9 +1,14 @@
 
 body{
-    background-color: ;
+    background-color: #ffeed9;
+    font-family: 'Roboto', sans-serif;    
 }
 
 nav{
-    background-color: teal;
+    background-color: #3f575e;
+    color: #95a8af;
 }
 
+.ust_menu{
+    
+}
