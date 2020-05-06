@@ -1,14 +1,22 @@
+:root{
+    --body-back : #ffeed9;
+    --menu-back : #3f575e;
+    --menu-yazi : #9AA8B3;
+}
+
 
 body{
-    background-color: #ffeed9;
+    background-color:var(--body-back);
     font-family: 'Roboto', sans-serif;    
 }
 
-nav{
-    background-color: #3f575e;
-    color: #95a8af;
+.navbar-default{
+    background-color: var(--menu-back);
+    color:var(--menu-yazi);
 }
 
 .ust_menu{
     
 }
+
+
