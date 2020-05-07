@@ -1,22 +1,33 @@
 :root{
-    --body-back : #ffeed9;
-    --menu-back : #3f575e;
-    --menu-yazi : #9AA8B3;
+    --renk-primary-0 : #978063 ;
+    --renk-primary-1 : #FFEED9 ;
+    --renk-primary-2 : #C8B092 ;
+    --renk-primary-3 : #584936 ;
+    --renk-primary-4 : #44321B ;
+
+    --renk-secondary-1-0 : #435362 ;
+    --renk-secondary-1-1 : #9AA8B3 ;
+    --renk-secondary-1-2 : #617281 ;
+    --renk-secondary-1-3 : #252F39 ;
+    --renk-secondary-1-4 : #14202C ;
+
+    --renk-secondary-2-0 : #3F575E ;
+    --renk-secondary-2-1 : #95A8AF ;
+    --renk-secondary-2-2 : #5D757D ;
+    --renk-secondary-2-3 : #233237 ;
+    --renk-secondary-2-4 : #12242A ;
 }
 
 
 body{
-    background-color:var(--body-back);
+    background-color:var(--renk-primary-1);
     font-family: 'Roboto', sans-serif;    
 }
 
-.navbar-default{
-    background-color: var(--menu-back);
-    color:var(--menu-yazi);
+.nav{
+    background-color: var(--renk-secondary-2-4);
 }
 
-.ust_menu{
-    
+.nav-link{
+    color:var(--renk-secondary-2-1);
 }
-
-
