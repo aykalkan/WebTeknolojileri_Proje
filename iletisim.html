@@ -6,10 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-    </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
+        </script>
 
     <title>Ben ve Memleketim</title>
     <link rel="stylesheet" type="text/css" href="stil.css">
@@ -18,8 +17,8 @@
 
 <body>
     <nav class="navbar">
-        <ul class="nav navbar-nav">
-            <li class="nav-item active">
+        <ul class="nav  nav-justified">
+            <li class="nav-item">
                 <a class="nav-link" href="index.html">Hakkımda</a>
             </li>
             <li class="nav-item">
@@ -31,7 +30,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="mirasimiz.html">Mirasımız</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link" href="iletisim.html">İletişim</a>
             </li>
             <li class="nav-item ">
@@ -41,38 +40,87 @@
     </nav>
 
     <form action="iletisim.php" method="POST">
-        E-posta adresiniz<input type="text" id="email" name="email">
-        <br>
-        İsim <input type="text" id="isim" name="isim">
-        <br>
-        Erkek <input type="radio" name="cinsiyet" value="e">
-        Kadın <input type="radio" name="cinsiyet" value="k">
-        <br>
-        Hangi sayfaları gezdiniz
-        <br>
-        <input type="checkbox" name="hobi" value="1">Özgeçmiş
-        <br>
-        <input type="checkbox" name="hobi" value="2">Memleketim
-        <br>
-        <input type="checkbox" name="hobi" value="3">Mirasımız
-        <br>
-        İletisim sebebiniz
-        <select name="sebep">
-            <option value="tesekkur"> Teşekkür</option>
-            <option value="sikayet"> Şikayet</option>
-            <option value="hal_hatır"> Hal hatır sorma </option>
-            <option value="business"> İş </option>
-            <option value="diger"> Diğer </option>
-        </select>
-        <br>
-        Konu <input type="text" id="Konu" name="konu">
-        <br>
-        <textarea rows="5" cols="50" id="mesaj" name="mesaj">Mesajınız</textarea>
-        <br>
-        <br>
-        <input type="button" value="Temizle">
-        <input type="submit" value="Gönder">
+        <div class=container>
 
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-2">E-posta adresi:</div>
+                <input class="col-sm-2" type="email">
+                <div class="col-sm-4"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-2">Şifre:</div>
+                <input class="col-sm-2" type="password">
+                <div class="col-sm-4"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-2">İsim:</div>
+                <input class="col-sm-2" type="text" id="isim" name="isim">
+                <div class="col-sm-4"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-2">Erkek <input type="radio" name="cinsiyet" value="e"></div>
+
+                <div class="col-sm-2">Kadın <input type="radio" name="cinsiyet" value="k"></div>
+                <div class="col-sm-4"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-2">Hangi sayfaları gezdiniz?</div>
+                <div class="col-sm-2">
+                    <input type="checkbox" name="sayfa" value="1">Özgeçmiş
+                    <br>
+                    <input type="checkbox" name="sayfa" value="2">Memleketim
+                    <br>
+                    <input type="checkbox" name="sayfa" value="3">Mirasımız
+                </div>
+                <div class="col-sm-4"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-2">İletisim sebebiniz</div>
+                <select class="col-sm-2" name="sebep">
+                    <option value="tesekkur"> Teşekkür</option>
+                    <option value="sikayet"> Şikayet</option>
+                    <option value="hal_hatır"> Hal hatır sorma </option>
+                    <option value="business"> İş </option>
+                    <option value="diger"> Diğer </option>
+                </select>
+                <div class="col-sm-4"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-2">Konu:</div>
+                <input class="col-sm-2" type="text" id="konu" name="konu">
+                <div class="col-sm-4"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4"><textarea rows="5" cols="50" id="mesaj" name="mesaj">Mesajınız</textarea></div>
+                <div class="col-sm-4"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4 ">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default">Temizle</button>
+                        <button type="button" class="btn btn-primary">Gönder</button>
+                    </div>
+                </div>
+                <div class="col-sm-4"></div>
+            </div>
+        </div>
     </form>
 </body>
 
