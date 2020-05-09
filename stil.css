@@ -76,3 +76,7 @@ footer {
 }
 
 /****** İletisim ******/
+
+.iletisim-formu .row{
+    margin: 20px;
+}

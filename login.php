@@ -1,4 +1,5 @@
 <?php
+    echo"<br>Şifre alındı</br>";
     $ad = $_POST["ad"];
     $sifre = $_POST["sifre"];
     $cinsiyet = $_POST["cinsiyet"]=="1" ? "Erkek":"Kadın";
@@ -7,8 +8,6 @@
     echo "Şifreniz : ".$_POST["sifre"]."<br>";
     echo ($_POST["cinsiyet"]=="1" ? "Erkek":"Kadın")."<br>";
 ?>
-
-<br><p style="font-size: large;margin: 20;"> Mesajınız başarıyla alındı. En kısa zamanda dönüş yapılacaktır.</p></br>
 
 <table border="1" width="200" height="40">
     <tr>
