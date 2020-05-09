@@ -1,3 +1,4 @@
+/****** Değişkenler ******/
 :root{
     --renk-primary-0 : #978063 ;
     --renk-primary-1 : #FFEED9 ;
@@ -18,7 +19,7 @@
     --renk-secondary-2-4 : #12242A ;
 }
 
-
+/****** Ortak özellikler ******/
 body{
     font-family: 'Roboto', sans-serif;    
 }
@@ -57,3 +58,21 @@ footer {
     background-color: var(--renk-secondary-2-3);
     color: var(--renk-secondary-2-1);
 }
+
+/****** Memleketim ******/
+
+
+/* Resim galerisi */
+.galeri>.item{
+    height: 600px;
+}
+
+.carousel-caption>h3{
+    font-size: 24pt;
+}
+
+.carousel-caption>p{
+    font-size: 18pt;
+}
+
+/****** İletisim ******/
