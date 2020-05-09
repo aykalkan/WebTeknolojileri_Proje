@@ -47,14 +47,7 @@
             <div class="row">
                 <div class="col-sm-4"></div>
                 <div class="col-sm-2">E-posta adresi:</div>
-                <input class="col-sm-2" type="email">
-                <div class="col-sm-4"></div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-4"></div>
-                <div class="col-sm-2">Şifre:</div>
-                <input class="col-sm-2" type="password">
+                <input class="col-sm-2" type="email" name="email">
                 <div class="col-sm-4"></div>
             </div>
 
@@ -77,11 +70,13 @@
                 <div class="col-sm-4"></div>
                 <div class="col-sm-2">Hangi sayfaları gezdiniz?</div>
                 <div class="col-sm-2">
-                    <input type="checkbox" name="sayfa" value="1">Özgeçmiş
+                    <input type="checkbox" name="sayfa[]" value="Hakkımda">Hakkımda
                     <br>
-                    <input type="checkbox" name="sayfa" value="2">Memleketim
+                    <input type="checkbox" name="sayfa[]" value="Özgecmis">Özgeçmiş
                     <br>
-                    <input type="checkbox" name="sayfa" value="3">Mirasımız
+                    <input type="checkbox" name="sayfa[]" value="Memleketim">Memleketim
+                    <br>
+                    <input type="checkbox" name="sayfa[]" value="Mirasımız">Mirasımız
                 </div>
                 <div class="col-sm-4"></div>
             </div>
@@ -90,11 +85,11 @@
                 <div class="col-sm-4"></div>
                 <div class="col-sm-2">İletisim sebebiniz</div>
                 <select class="col-sm-2" name="sebep">
-                    <option value="tesekkur"> Teşekkür</option>
-                    <option value="sikayet"> Şikayet</option>
-                    <option value="hal_hatır"> Hal hatır sorma </option>
-                    <option value="business"> İş </option>
-                    <option value="diger"> Diğer </option>
+                    <option value="0"> Teşekkür</option>
+                    <option value="1"> Şikayet</option>
+                    <option value="2"> Hal hatır sorma </option>
+                    <option value="3"> İş </option>
+                    <option value="4"> Diğer </option>
                 </select>
                 <div class="col-sm-4"></div>
             </div>
