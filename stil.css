@@ -105,6 +105,15 @@ min-width: 200px;
 
 
 /* Resim galerisi */
+#myCarousel{
+    width : 1200px;
+    max-width: 90%;
+}
+
+.galeri{
+    background-color: black;
+}
+
 .galeri>.item{
     height: 600px;
 }
@@ -117,6 +126,11 @@ min-width: 200px;
     font-size: 18pt;
 }
 
+.resimli>img{
+    width: 500px;
+    max-width: 90%;
+    margin: 10px;
+}
 /****** Formlar ******/
 
 form  .row{
