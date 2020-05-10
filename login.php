@@ -1,25 +1,17 @@
 <?php
-    echo"<br>Şifre alındı</br>";
-    $ad = $_POST["ad"];
+    $email = $_POST["email"];
     $sifre = $_POST["sifre"];
-    $cinsiyet = $_POST["cinsiyet"]=="1" ? "Erkek":"Kadın";
-
-    echo "Adınız : ".$_POST["ad"]."<br>";
-    echo "Şifreniz : ".$_POST["sifre"]."<br>";
-    echo ($_POST["cinsiyet"]=="1" ? "Erkek":"Kadın")."<br>";
 ?>
 
-<table border="1" width="200" height="40">
+<br><p style="font-size: large;margin: 20;">Başarıyla giriş yaptınız.</p></br>
+
+<table border="1" width="500" >
     <tr>
-        <td>Adınız:</td>
-        <td><?php echo $ad ?></td>
+        <td>E-posta adresiniz:</td>
+        <td><?php echo $email ?></td>
     </tr>
     <tr>
-        <td>Sifre:</td>
+        <td>Şifreniz:</td>
         <td><?php echo $sifre ?></td>
-    </tr>
-    <tr>
-        <td>Cinsiyet:</td>
-        <td><?php echo $cinsiyet ?></td>
     </tr>
 </table>

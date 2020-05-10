@@ -40,20 +40,27 @@
         </ul>
     </nav>
 
+<form action="login.php" method="POST">
     <div class=container>
         <div class="row">
             <div class="col-sm-4"></div>
             <div class="col-sm-2">E-posta adresi</div>
-            <input class="col-sm-2" type="email">
+            <input class="col-sm-2" type="email" name="email">
             <div class="col-sm-4"></div>
         </div>
         <div class="row">
             <div class="col-sm-4"></div>
             <div class="col-sm-2">Şifre</div>
-            <input class="col-sm-2" type="password">
+            <input class="col-sm-2" type="password" name="sifre">
+            <div class="col-sm-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6"></div>
+            <input class="col-sm-2 btn-primary" type="submit">
             <div class="col-sm-4"></div>
         </div>
     </div>
+</form>
 
 
     <footer><i>Her hakkı saklıdır. Ahmet Yasin Kalkanlı - 2020</i></footer>
