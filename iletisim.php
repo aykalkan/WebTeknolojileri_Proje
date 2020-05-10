@@ -2,19 +2,18 @@
     $email = $_POST["email"];
     $isim = $_POST["isim"];
     $cinsiyet = $_POST["cinsiyet"]=="e" ? "Erkek":"Kadın";
-    $sayfa = $_POST["sayfa"];
     $sebep = $_POST["sebep"];
     $konu = $_POST["konu"];
     $mesaj = $_POST["mesaj"];
     
     $secili_sayfalar = " ";
-    if(empty($sayfa)) 
+    if(empty($_POST["sayfa"])) 
     {
       $secili_sayfalar = "Herhangi bir sayfa dolaşmamışsınız.";
     } 
     else 
     {
-        foreach($sayfa as $s)
+        foreach($_POST["sayfa"] as $s)
         {
             $secili_sayfalar .= $s.", ";
         }
@@ -45,7 +44,6 @@
             break;
         
         default:
-            # code...
             break;
     }
 

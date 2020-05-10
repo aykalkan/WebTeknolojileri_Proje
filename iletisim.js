@@ -1,3 +1,3 @@
 function temizle() {
-        document.getElementById("iletisim_form").reset();
+    document.getElementById("iletisim_formu").reset();
 }

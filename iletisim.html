@@ -42,13 +42,13 @@
 
 
     <!-- İLETİŞİM FORMU -->
-    <form class="iletisim-formu" id="iletisim_form" action="iletisim.php" method="POST">
+    <form class="iletisim-formu" id="iletisim_formu" action="iletisim.php" method="POST">
         <div class=container>
 
             <div class="row">
                 <div class="col-sm-4"></div>
-                <div class="col-sm-2">E-posta adresi:</div>
-                <input class="col-sm-2" type="email" id="email" name="email">
+                <div class="col-sm-2">*E-posta adresi:</div>
+                <input class="col-sm-2" type="email" id="email" name="email" required>
                 <div class="col-sm-4"></div>
             </div>
 
@@ -61,8 +61,7 @@
 
             <div class="row">
                 <div class="col-sm-4"></div>
-                <div class="col-sm-2">Erkek <input type="radio" name="cinsiyet" value="e"></div>
-
+                <div class="col-sm-2">Erkek <input type="radio" name="cinsiyet" value="e" checked></div>
                 <div class="col-sm-2">Kadın <input type="radio" name="cinsiyet" value="k"></div>
                 <div class="col-sm-4"></div>
             </div>
@@ -97,14 +96,14 @@
 
             <div class="row">
                 <div class="col-sm-4"></div>
-                <div class="col-sm-2">Konu:</div>
-                <input class="col-sm-2" type="text" id="konu" name="konu">
+                <div class="col-sm-2">*Konu:</div>
+                <input class="col-sm-2" type="text" id="konu" name="konu" required>
                 <div class="col-sm-4"></div>
             </div>
 
             <div class="row">
                 <div class="col-sm-4"></div>
-                <div class="col-sm-4"><textarea rows="5" cols="50" id="mesaj" name="mesaj">Mesajınız</textarea></div>
+                <div class="col-sm-4">*Mesajınız:<br><textarea rows="5" cols="50" id="mesaj" name="mesaj" required></textarea></div>
                 <div class="col-sm-4"></div>
             </div>
 
@@ -112,7 +111,7 @@
                 <div class="col-sm-4"></div>
                 <div class="col-sm-4 ">
                     <div class="btn-group">
-                        <input type="button" onclick="temizle()" class="btn btn-default" id="temizle" value="Temizle">
+                        <input type="button" onclick="temizle()" class="btn btn-default" value="Temizle">
                         <button type="submit" class="btn btn-primary">Gönder</button>
                     </div>
                 </div>
@@ -120,11 +119,12 @@
             </div>
         </div>
     </form>   
+
+    <div class="son-bosluk"></div>
     
-    
+    <footer><i>Her hakkı saklıdır. Ahmet Yasin Kalkanlı - 2020</i></footer>
+   
     <script src="iletisim.js"></script>
-
-
 </body>
 
 </html>
