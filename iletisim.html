@@ -12,6 +12,7 @@
 
     <title>Ben ve Memleketim</title>
     <link rel="stylesheet" type="text/css" href="stil.css">
+
 </head>
 
 
@@ -41,13 +42,13 @@
 
 
     <!-- İLETİŞİM FORMU -->
-    <form class="iletisim-formu" action="iletisim.php" method="POST">
+    <form class="iletisim-formu" id="iletisim_form" action="iletisim.php" method="POST">
         <div class=container>
 
             <div class="row">
                 <div class="col-sm-4"></div>
                 <div class="col-sm-2">E-posta adresi:</div>
-                <input class="col-sm-2" type="email" name="email">
+                <input class="col-sm-2" type="email" id="email" name="email">
                 <div class="col-sm-4"></div>
             </div>
 
@@ -111,14 +112,19 @@
                 <div class="col-sm-4"></div>
                 <div class="col-sm-4 ">
                     <div class="btn-group">
-                        <button type="button" class="btn btn-default">Temizle</button>
+                        <input type="button" onclick="temizle()" class="btn btn-default" id="temizle" value="Temizle">
                         <button type="submit" class="btn btn-primary">Gönder</button>
                     </div>
                 </div>
                 <div class="col-sm-4"></div>
             </div>
         </div>
-    </form>
+    </form>   
+    
+    
+    <script src="iletisim.js"></script>
+
+
 </body>
 
 </html>
