@@ -9,7 +9,7 @@
     $sifre = $_POST["sifre"];
 	
     $sorgu = "SELECT * FROM kullanici WHERE email='$email' AND sifre='$sifre'";
-    $kullanici = mysqli_fetch_array(mysqli_query($link,$sorgu));
+    $kullanici = mysqli_fetch_array(mysqli_query($link,$sorgu)) or die("Hatalı giriş.");
 
     $ogrenci_no = $kullanici["ogrenci_no"];
 ?>
