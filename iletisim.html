@@ -9,6 +9,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
         </script>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
 
     <title>Ben ve Memleketim</title>
     <link rel="stylesheet" type="text/css" href="stil.css">
@@ -46,30 +48,27 @@
         <div class=container>
 
             <div class="row">
-                <div class="col-sm-4"></div>
-                <div class="col-sm-2">*E-posta adresi:</div>
-                <input class="col-sm-2" type="email" id="email" name="email" required>
-                <div class="col-sm-4"></div>
+                <div class="col-md-4"></div>
+                <div class="col-md-2">*E-posta adresi:</div>
+                <input class="col-md-4" type="email" id="email" name="email" required>
             </div>
 
             <div class="row">
-                <div class="col-sm-4"></div>
-                <div class="col-sm-2">İsim:</div>
-                <input class="col-sm-2" type="text" id="isim" name="isim">
-                <div class="col-sm-4"></div>
+                <div class="col-md-4"></div>
+                <div class="col-md-2">İsim:</div>
+                <input class="col-md-4" type="text" id="isim" name="isim">
             </div>
 
             <div class="row">
-                <div class="col-sm-4"></div>
-                <div class="col-sm-2">Erkek <input type="radio" name="cinsiyet" value="e" checked></div>
-                <div class="col-sm-2">Kadın <input type="radio" name="cinsiyet" value="k"></div>
-                <div class="col-sm-4"></div>
+                <div class="col-md-4"></div>
+                <div class="col-md-3">Erkek <input type="radio" name="cinsiyet" value="e" checked></div>
+                <div class="col-md-3">Kadın <input type="radio" name="cinsiyet" value="k"></div>
             </div>
 
             <div class="row">
-                <div class="col-sm-4"></div>
-                <div class="col-sm-2">Hangi sayfaları gezdiniz?</div>
-                <div class="col-sm-2">
+                <div class="col-md-4"></div>
+                <div class="col-md-2">Hangi sayfaları gezdiniz?</div>
+                <div class="col-md-4">
                     <input type="checkbox" name="sayfa[]" value="Hakkımda">Hakkımda
                     <br>
                     <input type="checkbox" name="sayfa[]" value="Özgecmis">Özgeçmiş
@@ -78,44 +77,39 @@
                     <br>
                     <input type="checkbox" name="sayfa[]" value="Mirasımız">Mirasımız
                 </div>
-                <div class="col-sm-4"></div>
             </div>
 
             <div class="row">
-                <div class="col-sm-4"></div>
-                <div class="col-sm-2">İletisim sebebiniz</div>
-                <select class="col-sm-2" name="sebep">
+                <div class="col-md-4"></div>
+                <div class="col-md-2">İletisim sebebiniz</div>
+                <select class="col-md-4" name="sebep">
                     <option value="0"> Teşekkür</option>
                     <option value="1"> Şikayet</option>
                     <option value="2"> Hal hatır sorma </option>
                     <option value="3"> İş </option>
                     <option value="4"> Diğer </option>
                 </select>
-                <div class="col-sm-4"></div>
             </div>
 
             <div class="row">
-                <div class="col-sm-4"></div>
-                <div class="col-sm-2">*Konu:</div>
-                <input class="col-sm-2" type="text" id="konu" name="konu" required>
-                <div class="col-sm-4"></div>
+                <div class="col-md-4"></div>
+                <div class="col-md-2">*Konu:</div>
+                <input class="col-md-4" type="text" id="konu" name="konu" required>
             </div>
 
             <div class="row">
-                <div class="col-sm-4"></div>
-                <div class="col-sm-4">*Mesajınız:<br><textarea rows="5" cols="50" id="mesaj" name="mesaj" required></textarea></div>
-                <div class="col-sm-4"></div>
+                <div class="col-md-4"></div>
+                <div class="col-md-6">*Mesajınız:<br><textarea rows="5"  id="mesaj" name="mesaj" required></textarea></div>
             </div>
 
             <div class="row">
-                <div class="col-sm-4"></div>
-                <div class="col-sm-4 ">
+                <div class="col-md-4"></div>
+                <div class="col-md-6 saga-yasla">
                     <div class="btn-group">
                         <input type="button" onclick="temizle()" class="btn btn-default" value="Temizle">
                         <button type="submit" class="btn btn-primary">Gönder</button>
                     </div>
                 </div>
-                <div class="col-sm-4"></div>
             </div>
         </div>
     </form>   
